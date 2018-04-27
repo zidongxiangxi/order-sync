@@ -1,0 +1,26 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://122.114.229.94:3306/order_sync
+    username: xdchen
+    password: xdchenXD!@#123
+mybatis:
+  type-aliases-package: com.xdchen.order.model
+
+taobao:
+  refreshTokenUrl: 'http://container.open.taobao.com/container/refresh'
+  tbPostSessionUrl: ''
+  topBoxApiUrl: ''
+  topSecurityUrl: ''
+  topBoxAutUrl: ''
+  topBoxAppKey: ''
+  topBoxAppSecret: ''
+  redirectUri: ''
+  topBoxAppKeyForBuyer: ''
+  topBoxAppSecretForBuyer: ''
+  topToken: ''
+
+jingdong:
