@@ -4,7 +4,7 @@ import com.taobao.api.domain.Shipping;
 import com.taobao.api.domain.Trade;
 import com.taobao.api.request.TradesSoldGetRequest;
 import com.taobao.api.request.TradesSoldIncrementGetRequest;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 
 import java.util.List;
 

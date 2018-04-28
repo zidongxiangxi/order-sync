@@ -5,7 +5,7 @@ import com.taobao.api.TaobaoClient;
 import com.taobao.api.request.CrmServiceChannelShortlinkCreateRequest;
 import com.taobao.api.response.CrmServiceChannelShortlinkCreateResponse;
 import com.xdchen.order.third.taobao.ClientFactory;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 
 public class CrmApi extends BaseTbApi {
     public CrmApi(ClientFactory clientFactory) {

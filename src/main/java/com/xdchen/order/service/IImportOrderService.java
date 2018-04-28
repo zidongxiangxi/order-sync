@@ -1,7 +1,7 @@
 package com.xdchen.order.service;
 
 import com.xdchen.order.model.Order;
-import com.xdchen.order.third.BaseThirdUser;
+import com.xdchen.order.model.BaseThirdUser;
 
 import java.util.Date;
 import java.util.List;

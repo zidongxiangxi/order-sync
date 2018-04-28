@@ -7,7 +7,7 @@ import com.taobao.api.request.TmcUserPermitRequest;
 import com.taobao.api.response.TmcUserCancelResponse;
 import com.taobao.api.response.TmcUserPermitResponse;
 import com.xdchen.order.third.taobao.ClientFactory;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 
 public class TmcMessageApi extends BaseTbApi {
 	public TmcMessageApi(ClientFactory clientFactory) {

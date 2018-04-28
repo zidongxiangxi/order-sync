@@ -11,7 +11,7 @@ import com.xdchen.order.service.ITbOrderService;
 import com.xdchen.order.service.ITopApiService;
 import com.xdchen.order.third.ThirdApiException;
 import com.xdchen.order.third.taobao.TaobaoRespFieldsConfig;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

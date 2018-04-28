@@ -3,7 +3,7 @@ package com.xdchen.order.service;
 import com.taobao.api.request.TradesSoldGetRequest;
 import com.taobao.api.request.TradesSoldIncrementGetRequest;
 import com.taobao.api.response.*;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 
 public interface ITopApiService {
     // 物流API

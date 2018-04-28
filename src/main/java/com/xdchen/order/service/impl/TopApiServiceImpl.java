@@ -6,7 +6,7 @@ import com.taobao.api.response.*;
 import com.xdchen.order.service.ITopApiService;
 import com.xdchen.order.third.taobao.ClientFactory;
 import com.xdchen.order.third.taobao.api.*;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

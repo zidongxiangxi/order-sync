@@ -5,7 +5,7 @@ import com.taobao.api.TaobaoClient;
 import com.taobao.api.request.ItemsOnsaleGetRequest;
 import com.taobao.api.response.ItemsOnsaleGetResponse;
 import com.xdchen.order.third.taobao.ClientFactory;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 
 public class ProductApi extends BaseTbApi {
     public ProductApi(ClientFactory clientFactory) {

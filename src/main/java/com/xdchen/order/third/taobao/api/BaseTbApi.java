@@ -3,7 +3,7 @@ package com.xdchen.order.third.taobao.api;
 import com.taobao.api.TaobaoResponse;
 import com.xdchen.order.third.taobao.ClientFactory;
 import com.xdchen.order.third.taobao.exception.InvalidSessionException;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 
 public class BaseTbApi {
     protected ClientFactory clientFactory;

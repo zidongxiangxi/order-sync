@@ -8,7 +8,7 @@ import com.taobao.api.response.TopSecretGetResponse;
 import com.taobao.api.response.UserSellerGetResponse;
 import com.xdchen.order.third.taobao.ClientFactory;
 import com.xdchen.order.third.taobao.exception.InvalidSessionException;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 
 public class UserApi extends BaseTbApi {
 	public UserApi(ClientFactory clientFactory) {

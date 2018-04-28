@@ -9,7 +9,7 @@ import com.taobao.api.response.LogisticsAddressSearchResponse;
 import com.taobao.api.response.LogisticsOrdersGetResponse;
 import com.taobao.api.response.LogisticsTraceSearchResponse;
 import com.xdchen.order.third.taobao.ClientFactory;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 
 public class LogisticApi extends BaseTbApi {
     public LogisticApi(ClientFactory clientFactory) {

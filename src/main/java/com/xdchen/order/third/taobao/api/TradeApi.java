@@ -5,7 +5,7 @@ import com.taobao.api.TaobaoClient;
 import com.taobao.api.request.*;
 import com.taobao.api.response.*;
 import com.xdchen.order.third.taobao.ClientFactory;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 
 import java.util.Calendar;
 

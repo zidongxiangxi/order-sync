@@ -7,10 +7,10 @@ import com.taobao.api.request.TradesSoldIncrementGetRequest;
 import com.xdchen.order.model.Order;
 import com.xdchen.order.service.IImportOrderService;
 import com.xdchen.order.service.ITbOrderService;
-import com.xdchen.order.third.BaseThirdUser;
+import com.xdchen.order.model.BaseThirdUser;
 import com.xdchen.order.third.taobao.TaobaoRespFieldsConfig;
 import com.xdchen.order.third.taobao.po.EOrderStatusCode;
-import com.xdchen.order.third.taobao.po.TbUser;
+import com.xdchen.order.model.TbUser;
 import com.xdchen.order.utils.CommonUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -130,7 +130,7 @@ public class TbImportOrderService implements IImportOrderService {
                 order.setKuaidiCom(CommonUtil.getCompanyCode(shippingList.get(0).getCompanyName()).toLowerCase());
             }
             order.setUserId(user.getUserId());
-            order.setIsPayed(user.getSmsBalance());
+//            order.setIsPayed(user.getSmsBalance());
             order.setOrderId(String.valueOf(trade.getTid()));
             order.setBuyerMobile(trade.getReceiverMobile());
             order.setRecAddr(trade.getReceiverState() + trade.getReceiverCity() + trade.getReceiverDistrict());
