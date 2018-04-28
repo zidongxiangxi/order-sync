@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://122.114.229.94:3306/order_sync
-    username: xdchen
-    password: xdchenXD!@#123
+    url: jdbc:mysql://localhost:3306/order_sync
+    username: root
+    password: 123456
 mybatis:
   type-aliases-package: com.xdchen.order.model
 

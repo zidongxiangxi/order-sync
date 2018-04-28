@@ -6,6 +6,7 @@ public class TbUser extends BaseThirdUser {
     private long userId;
     private String sessionKey;
     private String nick;
+    private int smsBalance;
 
     public long getUserId() {
         return userId;
@@ -29,5 +30,13 @@ public class TbUser extends BaseThirdUser {
 
     public void setNick(String nick) {
         this.nick = nick;
+    }
+
+    public int getSmsBalance() {
+        return smsBalance;
+    }
+
+    public void setSmsBalance(int smsBalance) {
+        this.smsBalance = smsBalance;
     }
 }

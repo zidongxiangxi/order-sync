@@ -1,7 +1,7 @@
 package com.xdchen.order.model;
 
 public class Order {
-    private String userId;
+    private Long userId;
     private String nick = "";
     private String kuaidiCom = ""; // 快递公司名称
     private String kuaidiNum = ""; // 快递单号
@@ -13,17 +13,17 @@ public class Order {
     private String consignTime = "";	// 发货时间
     private String created = "";	// 交易创建时间
     private String tbKuaidiCom = "";	// 快递公司名称（淘宝）
-    private String payMent;	//实付金额
-    private int isPayed = 0;
+    private String payment;	//实付金额
+    private Integer isPayed = 0;
     private String recState = ""; // 收件人省
     private String recCity = ""; // 收件人市
     private String recDistrict = ""; // 收件人区
 
-    public String getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 
@@ -115,19 +115,19 @@ public class Order {
         this.tbKuaidiCom = tbKuaidiCom;
     }
 
-    public String getPayMent() {
-        return payMent;
+    public String getPayment() {
+        return payment;
     }
 
-    public void setPayMent(String payMent) {
-        this.payMent = payMent;
+    public void setPayment(String payment) {
+        this.payment = payment;
     }
 
-    public int getIsPayed() {
+    public Integer getIsPayed() {
         return isPayed;
     }
 
-    public void setIsPayed(int isPayed) {
+    public void setIsPayed(Integer isPayed) {
         this.isPayed = isPayed;
     }
 
